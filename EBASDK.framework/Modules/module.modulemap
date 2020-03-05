@@ -1,0 +1,11 @@
+framework module EBASDK {
+  umbrella header "EBASDK.h"
+
+  export *
+  module * { export * }
+}
+
+module EBASDK.Swift {
+    header "EBASDK-Swift.h"
+    requires objc
+}
